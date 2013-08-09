@@ -17,3 +17,5 @@ qpidd:
     - running
     - name: {{ pkg.service }}
     - enable: True
+    - require:
+      - pkg: qpidd
