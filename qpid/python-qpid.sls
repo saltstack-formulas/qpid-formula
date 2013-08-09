@@ -1,0 +1,3 @@
+python-qpid:
+  pkg:
+    - installed
