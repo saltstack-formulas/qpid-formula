@@ -12,8 +12,16 @@ Available states
 ----------------
 
 ``qpid``
-    Installs the Qpid client
+--------
+
+Installs the Qpid client
+    
 ``qpid.server``
-    Installs the Qpid broker and starts the service.
+---------------
+
+Installs the Qpid broker and starts the service.
+    
 ``qpid.python-qpid``
-    Installs the Qpid Python bindings
+--------------------
+
+Installs the Qpid Python bindings
