@@ -1,3 +1,2 @@
 python-qpid:
-  pkg:
-    - installed
+  pkg.installed: []
