@@ -10,11 +10,9 @@
 }) %}
 
 qpidd:
-  pkg:
-    - installed
+  pkg.installed:
     - name: {{ pkg.name }}
-  service:
-    - running
+  service.running:
     - name: {{ pkg.service }}
     - enable: True
     - require:

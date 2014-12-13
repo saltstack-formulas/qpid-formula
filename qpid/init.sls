@@ -4,6 +4,5 @@
 }) %}
 
 qpid:
-  pkg:
-    - installed
+  pkg.installed:
     - name: {{ pkg.name }}
